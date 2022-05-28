@@ -30,7 +30,7 @@ class Student:
         return score
         
 
-
+# Instantiating the Student Class
 Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 
 # Expected methods
