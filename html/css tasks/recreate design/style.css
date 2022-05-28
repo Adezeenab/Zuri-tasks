@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* .header{
+    background-color: black;
+    background: white;
+    font-size:lighter;
+} */
+.caption{
+    text-align: center;
+    font-size: large;
+    color: rgb(233, 233, 233);
+    padding: 15px 1px;
+    background-color: black;
+}
+
+
+.design-page{
+    margin-top: -13px;
+    padding: 10px; 
+    font-weight: lighter;
+    background-color: #EEEEEE;
+    border-bottom: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.radio {
+    display: table;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.radio-item{
+    padding: 4px;
+}
+
+.question-button {
+    padding: 30px 0 45px 0;
+    text-align: center;
+}
+
+.btn{
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px 18px;
+    margin: auto;
+    background-color: #00738d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: lighter;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn1{
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px 18px;
+    margin: auto;
+    background-color: #00809d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: lighter;
+    display: inline-block;
+    cursor: pointer;
+}
+
+footer {
+    height: 2.5px;
+    background-color: rgb(68, 68, 68);
+}
