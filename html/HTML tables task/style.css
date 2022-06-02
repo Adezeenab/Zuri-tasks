@@ -1,0 +1,32 @@
+caption{
+    background-color: gainsboro;
+    padding: 5px;
+    font-size: larger;
+    font-weight: 500;
+}
+table {
+    text-align: center; 
+    background-color: gainsboro;
+  }
+  td, th {
+    border: 1px solid #004251;
+    padding: 5px;
+    white-space: 5px;
+  }
+  th {
+    background:	black;
+    color: white;
+    padding: 5px ;
+  }
+  .primary{
+    background-color: white
+  }
+  
+  tfoot > tr  {
+    background: black;
+    color: white;
+  }
+  tbody > tr:hover {
+    background-color: lightblue;
+  }
+  
