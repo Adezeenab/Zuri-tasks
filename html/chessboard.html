@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 by 5 chessboard set</title>
+</head>
+<style>
+    .chessboard{
+        margin: auto;
+        border-collapse: collapse;
+        border: 25px solid #1e1110;    
+    }
+
+    .black{
+        background-color: #90422b;
+        font-size: 40px;
+        text-align: center;
+        vertical-align: middle;
+        width: 200px;
+        height: 20vh;
+    }
+
+    .white{
+        background-color: #dfb995;
+        font-size: 40px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .piece{ 
+        color: white;
+    }
+
+    .wpawn .white{
+        font-size: 28px;
+        color: white;
+    }
+    .wpawn .black{
+        font-size: 28px;
+        color: white;
+    }
+
+    .bpawn .white{
+        font-size: 28px;
+    }
+    .bpawn .black{
+        font-size: 28px;
+    }
+</style>
+<body>
+    <table class="chessboard">
+        <tr class="white piece">
+            <td class="black">&#9820;</td>
+            <td class="white">&#9822;</td>
+            <td class="black">&#9821;</td>
+            <td class="white">&#9818;</td>
+            <td class="black">&#9819;</td>
+        </tr>
+        <tr class="wpawn">
+            <td class="white">&#9823;</td>
+            <td class="black">&#9823;</td>
+            <td class="white">&#9823;</td>
+            <td class="black">&#9823;</td>
+            <td class="white">&#9823;</td>
+        </tr>
+        <tr>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+        </tr>
+        <tr class="bpawn">
+            <td class="white">&#9823;</td>
+            <td class="black">&#9823;</td>
+            <td class="white">&#9823;</td>
+            <td class="black">&#9823;</td>
+            <td class="white">&#9823;</td>
+        </tr>
+        <tr class="black official">
+            <td class="black">&#9820;</td>
+            <td class="white">&#9822;</td>
+            <td class="black">&#9821;</td>
+            <td class="white">&#9819;</td>
+            <td class="black">&#9818;</td>
+        </tr>
+    </table>
+</body>
+</html>
