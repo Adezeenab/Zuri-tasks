@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav__logo {
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+}
+
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    color: #000;
+}
+
+.home {
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.home .home__intro {
+    width: 40%;
+    font-size: 2em;
+    float: right;
+}
+
+.home .home__image {
+    width: 40%;
+    float: left;
+}
+
+.home .home__image .inner-section{
+    text-align: center;
+}
+
+
+footer {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    bottom: 4px;
+}
+
+footer .social__links {
+    position: relative;
+    float:left;
+    width: 49%;
+}
+
+footer .social__links a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .page__links {
+    width: 49%;
+    float: right;
+    
+}
+
+footer .page__links .menu {
+    list-style: none;
+    
+}
+
+footer .page__links .menu a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .copyright{
+    text-align: center;
+    margin-top: 30px;
+}

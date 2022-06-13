@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ce2c81e1b5.js" crossorigin="anonymous"></script>
+    <title>My Profile-Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <p>Chijioke Elijah</p>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="registration.html">Registration </a> </li>
+                        <li><a href="login.html"> Log In</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>    
+    </header>
+    <main class="main-container">
+        <form class="register-form">
+            <h2>REGISTRATION FORM</h2>
+            <label for="firstName">
+                <input type="text" placeholder="First Name" required>
+            </label>
+            <label for="lastName">
+                <input type="text" placeholder="Last Name" required>
+            </label>
+            <label for="Phone">
+                <input type="phonenumber" placeholder="Phone Number" required>
+            </label>
+            <select name="Gender" id="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="">Non-binary</option>
+            </select>
+            <label for="Country">
+                <input type="text" name="Country" placeholder="Country" required>
+            </label>
+            <label for="state/province">
+                <input type="state/province" placeholder="State/Province" required>
+            </label>
+            <label for="email">
+                <input type="email" placeholder="Email" required>
+            </label>
+            <label for="password">
+                <input type="Password" placeholder="Password" required>
+            </label>
+            <label for="confirmpassword">
+                <input type="confirmPassword" placeholder="Confirm Password" required>
+            </label>
+            <button>Register</button>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <p>Let's connect</p>
+            <ul>
+                <li><a href="https://twitter.com/Adezee01">Twitter</a></li>
+                <li><a href="https://codepen.io/adezeenab">Codepen</a></li>
+                <li><a href="https://github.com/Adezeenab">Github</a></li>
+            </ul> 
+        </div>
+
+        <div class="nav-links">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact page</a></li>
+                <li><a href="register.html">Registration page</a></li>
+                <li><a href="login.html">Login page</a></li>
+            </ul>
+        </div>
+        <div class="copy right">
+            <p><i class="fa fa-copyright" aria-hidden="true"></i></i> Zainab 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
